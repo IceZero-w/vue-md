@@ -6,9 +6,7 @@ function isEmptyObject(obj) {
 
 const install = () => {
 	// 全局只挂在一个实例子
-	window.onload = () => {
-		window.$MD = new VueMD();
-	}
+	window.$MD = new VueMD();
 }
 
 /* web数据埋点 */
